@@ -8,8 +8,8 @@
   id: Acrux
   mapName: 'Port Acrux'
   mapPath: /Maps/TheDen/acrux.yml
-  minPlayers: 5
-  maxPlayers: 60
+  minPlayers: 0
+  maxPlayers: 55
   stations:
     Acrux:
       stationProto: StandardNanotrasenStation
@@ -20,7 +20,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: 'TD'
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/TheDen/NTES_Right_II.yml
+          emergencyShuttlePath: /Maps/Shuttles/_DV/NTES_Delta.yml
         - type: StationJobs
           overflowJobs:
             - Passenger
@@ -73,13 +73,13 @@
             ResearchAssistant: [ 2, 2 ]
             Chaplain: [ 1, 1 ]
             ForensicMantis: [ 1, 1 ]
-            Roboticist: [ 1, 1 ]
-            Borg: [ 2, 3 ]
+            Roboticist: [ 1, 2 ]
+            Borg: [ 2, 2 ]
             Librarian: [ 1, 1 ]
           #Logistics
             Quartermaster: [ 1, 1 ]
-            SalvageSpecialist: [ 4, 4 ]
+            SalvageSpecialist: [ 3, 3 ]
             MailCarrier: [ 1, 1 ]
-            CargoTechnician: [ 3, 4 ]
+            CargoTechnician: [ 2, 3 ]
           # Silicon
             StationAi: [ 1, 1 ]
